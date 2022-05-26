@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1自己实现冒泡�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1快速排序", "Project1快速排序\Project1快速排序.vcxproj", "{ABA5DBA3-3044-4195-846A-390188093B03}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1自己实现插入排序", "Project1自己实现插入排序\Project1自己实现插入排序.vcxproj", "{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,14 @@ Global
 		{ABA5DBA3-3044-4195-846A-390188093B03}.Release|Win32.Build.0 = Release|Win32
 		{ABA5DBA3-3044-4195-846A-390188093B03}.Release|x64.ActiveCfg = Release|x64
 		{ABA5DBA3-3044-4195-846A-390188093B03}.Release|x64.Build.0 = Release|x64
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Debug|Win32.Build.0 = Debug|Win32
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Debug|x64.ActiveCfg = Debug|x64
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Debug|x64.Build.0 = Debug|x64
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Release|Win32.ActiveCfg = Release|Win32
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Release|Win32.Build.0 = Release|Win32
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Release|x64.ActiveCfg = Release|x64
+		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
