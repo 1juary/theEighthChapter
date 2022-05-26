@@ -50,7 +50,7 @@ void MidInsertSort(ElemType A[],int n)
 	for(i=2;i<=n;i++)
 	{
 		A[0]=A[i];
-		low=1;high=i-1;//low有序序列的开始，high有序序列的最后
+		low=1;high=i-1;//low有序序列的开始，high有序序列的最后。  
 		while(low<=high)//先通过二分查找找到待插入位置
 		{
 			mid=(low+high)/2;
