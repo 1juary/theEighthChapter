@@ -44,6 +44,9 @@ void print(int* a)
 	}
 	printf("\n");
 }
+
+
+
 //《王道C督学营》课程
 // 归并排序
 int main()

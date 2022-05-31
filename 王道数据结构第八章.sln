@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1快速排序", "Pro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1自己实现插入排序", "Project1自己实现插入排序\Project1自己实现插入排序.vcxproj", "{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "project自己实现归并排序", "project自己实现归并排序\project自己实现归并排序.vcxproj", "{EC10B609-855F-497A-8201-746528ADF995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -73,6 +75,14 @@ Global
 		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Release|Win32.Build.0 = Release|Win32
 		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Release|x64.ActiveCfg = Release|x64
 		{DB2097FA-F982-4F97-BBFF-118B7A0AA72E}.Release|x64.Build.0 = Release|x64
+		{EC10B609-855F-497A-8201-746528ADF995}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC10B609-855F-497A-8201-746528ADF995}.Debug|Win32.Build.0 = Debug|Win32
+		{EC10B609-855F-497A-8201-746528ADF995}.Debug|x64.ActiveCfg = Debug|x64
+		{EC10B609-855F-497A-8201-746528ADF995}.Debug|x64.Build.0 = Debug|x64
+		{EC10B609-855F-497A-8201-746528ADF995}.Release|Win32.ActiveCfg = Release|Win32
+		{EC10B609-855F-497A-8201-746528ADF995}.Release|Win32.Build.0 = Release|Win32
+		{EC10B609-855F-497A-8201-746528ADF995}.Release|x64.ActiveCfg = Release|x64
+		{EC10B609-855F-497A-8201-746528ADF995}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
