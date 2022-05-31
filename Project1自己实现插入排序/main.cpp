@@ -28,6 +28,8 @@ void ST_print(SSTable ST) {
 
 void InsertSort(SSTable &ST, int n) {
 	int i, j;
+	if (n > ST.TableLen)
+		return;
 	for (i = 2; i <= n; i++) {
 		if (ST.elem[i] < ST.elem[i-1]) {
 			ST.elem[0] = ST.elem[i];
@@ -41,7 +43,44 @@ void InsertSort(SSTable &ST, int n) {
 
 
 void MidInsertSort(SSTable &ST, int n) {
+	int i, j, low, high, mid;
+	if (n > ST.TableLen)
+		return;
+	for (i = 2; i <= n; i++) {
+		ST.elem[0] = ST.elem[i];
+		low = 1; high = i - 1;
+		while (low <= high) {
+			mid = (low + high) / 2;
+			if (ST.elem[0] > ST.elem[mid]) {
+				low = mid + 1;
+			}
+			else {
+				high = mid - 1;
+			}
+		}
+		for (j = i - 1; j >= high + 1; --j) {
+			ST.elem[j + 1] = ST.elem[j];
+		}
+		ST.elem[high + 1] = ST.elem[0];
+	}
+}
 
+
+void ShellSort(SSTable &ST, int n) {
+	int dk, i, j;
+	if (n > ST.TableLen)
+		return;
+	for (dk = n / 2; dk >= 1; dk = dk / 2) {   //步长变化
+		for (i = dk + 1; i <= n; ++i) {
+			if (ST.elem[i] < ST.elem[i - dk]) {
+				ST.elem[0] = ST.elem[i];
+				for (j = i - dk; j > 0 && ST.elem[0] < ST.elem[j]; j = j - dk) {
+					ST.elem[j + dk] = ST.elem[j];
+				}
+				ST.elem[j + dk] = ST.elem[0];
+			}
+		}
+	}
 }
 
 int main()
@@ -52,8 +91,10 @@ int main()
 	memcpy(ST.elem + 1, A, sizeof(A));
 	ST_print(ST);
 	InsertSort(ST,10);
-	MidInsertSort(ST.elem,10);
-	//ShellSort(ST.elem, 10);
+	ST_print(ST);
+	MidInsertSort(ST,10);
+	ST_print(ST);
+	ShellSort(ST, 10);
 	ST_print(ST);
 	
 }
