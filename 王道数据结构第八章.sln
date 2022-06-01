@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1自己实现插入�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "project自己实现归并排序", "project自己实现归并排序\project自己实现归并排序.vcxproj", "{EC10B609-855F-497A-8201-746528ADF995}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1自己实现选择排序", "Project1自己实现选择排序\Project1自己实现选择排序.vcxproj", "{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -83,6 +85,14 @@ Global
 		{EC10B609-855F-497A-8201-746528ADF995}.Release|Win32.Build.0 = Release|Win32
 		{EC10B609-855F-497A-8201-746528ADF995}.Release|x64.ActiveCfg = Release|x64
 		{EC10B609-855F-497A-8201-746528ADF995}.Release|x64.Build.0 = Release|x64
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Debug|Win32.Build.0 = Debug|Win32
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Debug|x64.ActiveCfg = Debug|x64
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Debug|x64.Build.0 = Debug|x64
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Release|Win32.ActiveCfg = Release|Win32
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Release|Win32.Build.0 = Release|Win32
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Release|x64.ActiveCfg = Release|x64
+		{E7B4A668-E9FE-4642-B3B1-07E6A5E0D319}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

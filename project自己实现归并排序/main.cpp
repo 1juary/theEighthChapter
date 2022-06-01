@@ -5,9 +5,9 @@
 typedef int ElemType;
 
 void Merge(ElemType A[], int low, int mid, int high) {
-	ElemType B [N];                                      //辅助数组，减少操作次数。但直接定义在函数中空间复杂度>O(1)
-	int i,j, k;                                         //涉及递归Merge，在main()函数中定义B
-	                                                   //使用归并函数时调用地址可以进一步减少空间使用率
+	ElemType B [N];                                          //辅助数组，减少操作次数。但直接定义在函数中空间复杂度>O(1)
+	int i,j, k;                                             //涉及递归Merge，在main()函数中定义B
+	                                                       //使用归并函数时调用地址可以进一步减少空间使用率
 	for (k = low; k <= high; k++) {
 		B[k] = A[k];                                      //复刻辅助数组
 	}

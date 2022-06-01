@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+
 typedef int ElemType;
+
 typedef struct{
 	ElemType *elem;
 	int TableLen;
@@ -51,6 +53,7 @@ void SelectSort(ElemType A[],int n)
 		}
 	}
 }
+
 //调整某个父亲节点
 void AdjustDown(ElemType A[],int k,int len)
 {
@@ -69,6 +72,7 @@ void AdjustDown(ElemType A[],int k,int len)
 	}
 	A[k]=A[0];
 }
+
 //用数组去表示树   层次建树
 void BuildMaxHeap(ElemType A[],int len)
 {
@@ -87,6 +91,7 @@ void HeapSort(ElemType A[],int len)
 		AdjustDown(A,1,i-1);
 	}
 }
+
 //调整子树
 void AdjustDown1(ElemType A[], int k, int len)
 {
@@ -125,8 +130,10 @@ void HeapSort1(ElemType A[], int len)
 	}
 }
 
+
 //《王道C督学营》课程
 //选择排序与堆排序
+
 int main()
 {
 	SSTable ST;
@@ -138,5 +145,5 @@ int main()
 	HeapSort(ST.elem, 9);//王道书零号元素不参与排序
 	//HeapSort1(ST.elem,9);//所有元素参与排序
 	ST_print(ST);
-	system("pause");
+	
 }
